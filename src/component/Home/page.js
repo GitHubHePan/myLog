@@ -5,6 +5,7 @@ import Log from '../Log/page';
 import My from '../My/page';
 import PersonIcon from '@material-ui/icons/Person'
 import HomeIcon from '@material-ui/icons/Home'
+import { get } from '../../utils/ajax'
 
 const Nav = styled.div`
     position: fixed;
@@ -23,7 +24,8 @@ export default class Page extends Component {
   }
 
   componentDidMount() {
-    console.log(">>>>>>>>>>", this.props)
+    const data = get("/sell/buyer/product/list")
+    console.log(data)
   }
 
   render() {

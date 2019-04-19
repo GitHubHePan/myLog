@@ -32,6 +32,7 @@
     "fork-ts-checker-webpack-plugin-alt": "0.4.14",
     "fs-extra": "7.0.0",
     "html-webpack-plugin": "4.0.0-alpha.2",
+    "http-proxy-middleware": "^0.19.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.1",
@@ -51,6 +52,7 @@
     "react-redux": "^5.1.1",
     "react-router": "^3.0.5",
     "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "resolve": "1.8.1",
@@ -73,7 +75,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:9093",
   "browserslist": [
     ">0.2%",
     "not dead",
